@@ -18,7 +18,7 @@ python manage.py migrate
    python manage.py runserver
    ```
 3. **Проверьте админку**:
-   - Откройте `/admin` и убедитесь, что меню отображается.
+   - Откройте [http://localhost:8000/admin](http://localhost:8000/admin) и убедитесь, что меню отображается.
 4. **Проверьте шаблон**:
    - Откройте [http://localhost:8000](http://localhost:8000)
 
