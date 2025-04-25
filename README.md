@@ -11,7 +11,7 @@ python manage.py migrate
 ## Проверить работу
 1. **Загрузите фикстуры**:
    ```bash
-   python manage.py loaddata menu/fixtures/menu_data.json
+   python manage.py loaddata menu/fixtures/menu.json
    ```
 2. **Запустите сервер**:
    ```bash
@@ -20,7 +20,7 @@ python manage.py migrate
 3. **Проверьте админку**:
    - Откройте `/admin` и убедитесь, что меню отображается.
 4. **Проверьте шаблон**:
-   - Откройте [http://localhost:8000/admin](http://localhost:8000/admin)
+   - Откройте [http://localhost:8000](http://localhost:8000)
 
 ## Использование
 1. Создайте меню в админке.
