@@ -1,0 +1,249 @@
+[
+    {
+        "model": "menu.menu",
+        "pk": 1,
+        "fields": {
+            "name": "main_menu"
+        }
+    },
+    {
+        "model": "menu.menuitem",
+        "pk": 1,
+        "fields": {
+            "menu": 1,
+            "title": "Главная",
+            "url": "http://localhost:8000/",
+            "named_url": "",
+            "parent": null,
+            "order": 1
+        }
+    },
+    {
+        "model": "menu.menuitem",
+        "pk": 2,
+        "fields": {
+            "menu": 1,
+            "title": "О нас",
+            "url": "http://localhost:8000/about",
+            "named_url": "about",
+            "parent": null,
+            "order": 2
+        }
+    },
+    {
+        "model": "menu.menuitem",
+        "pk": 3,
+        "fields": {
+            "menu": 1,
+            "title": "Команда",
+            "url": "http://localhost:8000/about/team",
+            "named_url": "team",
+            "parent": 2,
+            "order": 1
+        }
+    },
+    {
+        "model": "menu.menuitem",
+        "pk": 4,
+        "fields": {
+            "menu": 1,
+            "title": "История",
+            "url": "http://localhost:8000/about/history",
+            "named_url": "history",
+            "parent": 2,
+            "order": 2
+        }
+    },
+    {
+        "model": "menu.menuitem",
+        "pk": 5,
+        "fields": {
+            "menu": 1,
+            "title": "Контакты",
+            "url": "http://localhost:8000/contacts",
+            "named_url": "contacts",
+            "parent": null,
+            "order": 3
+        }
+    },
+    {
+        "model": "menu.menuitem",
+        "pk": 6,
+        "fields": {
+            "menu": 1,
+            "title": "Поддержка",
+            "url": "http://localhost:8000/contacts/support",
+            "named_url": "support",
+            "parent": 5,
+            "order": 1
+        }
+    },
+    {
+        "model": "menu.menuitem",
+        "pk": 7,
+        "fields": {
+            "menu": 1,
+            "title": "Обратная связь",
+            "url": "http://localhost:8000/contacts/feedback",
+            "named_url": "feedback",
+            "parent": 5,
+            "order": 2
+        }
+    },
+    {
+        "model": "menu.menuitem",
+        "pk": 8,
+        "fields": {
+            "menu": 1,
+            "title": "Услуги",
+            "url": "http://localhost:8000/services",
+            "named_url": "services",
+            "parent": null,
+            "order": 4
+        }
+    },
+    {
+        "model": "menu.menuitem",
+        "pk": 9,
+        "fields": {
+            "menu": 1,
+            "title": "Веб-услуги",
+            "url": "http://localhost:8000/services/web",
+            "named_url": "web_services",
+            "parent": 8,
+            "order": 1
+        }
+    },
+    {
+        "model": "menu.menuitem",
+        "pk": 10,
+        "fields": {
+            "menu": 1,
+            "title": "Дизайн",
+            "url": "http://localhost:8000/services/web/design",
+            "named_url": "web_design",
+            "parent": 9,
+            "order": 1
+        }
+    },
+    {
+        "model": "menu.menuitem",
+        "pk": 11,
+        "fields": {
+            "menu": 1,
+            "title": "Разработка",
+            "url": "http://localhost:8000/services/web/development",
+            "named_url": "web_development",
+            "parent": 9,
+            "order": 2
+        }
+    },
+    {
+        "model": "menu.menuitem",
+        "pk": 12,
+        "fields": {
+            "menu": 1,
+            "title": "Мобильные услуги",
+            "url": "http://localhost:8000/services/mobile",
+            "named_url": "mobile_services",
+            "parent": 8,
+            "order": 2
+        }
+    },
+    {
+        "model": "menu.menuitem",
+        "pk": 13,
+        "fields": {
+            "menu": 1,
+            "title": "Android",
+            "url": "http://localhost:8000/services/mobile/android",
+            "named_url": "android",
+            "parent": 12,
+            "order": 1
+        }
+    },
+    {
+        "model": "menu.menuitem",
+        "pk": 14,
+        "fields": {
+            "menu": 1,
+            "title": "iOS",
+            "url": "http://localhost:8000/services/mobile/ios",
+            "named_url": "ios",
+            "parent": 12,
+            "order": 2
+        }
+    },
+    {
+        "model": "menu.menuitem",
+        "pk": 15,
+        "fields": {
+            "menu": 1,
+            "title": "Блог",
+            "url": "http://localhost:8000/blog",
+            "named_url": "blog",
+            "parent": null,
+            "order": 5
+        }
+    },
+    {
+        "model": "menu.menuitem",
+        "pk": 16,
+        "fields": {
+            "menu": 1,
+            "title": "Новости",
+            "url": "http://localhost:8000/blog/news",
+            "named_url": "news",
+            "parent": 15,
+            "order": 1
+        }
+    },
+    {
+        "model": "menu.menuitem",
+        "pk": 17,
+        "fields": {
+            "menu": 1,
+            "title": "Статьи",
+            "url": "http://localhost:8000/blog/tutorials",
+            "named_url": "tutorials",
+            "parent": 15,
+            "order": 2
+        }
+    },
+    {
+        "model": "menu.menuitem",
+        "pk": 18,
+        "fields": {
+            "menu": 1,
+            "title": "Цены",
+            "url": "http://localhost:8000/pricing",
+            "named_url": "pricing",
+            "parent": null,
+            "order": 6
+        }
+    },
+    {
+        "model": "menu.menuitem",
+        "pk": 19,
+        "fields": {
+            "menu": 1,
+            "title": "Тарифы",
+            "url": "http://localhost:8000/pricing/plans",
+            "named_url": "plans",
+            "parent": 18,
+            "order": 1
+        }
+    },
+    {
+        "model": "menu.menuitem",
+        "pk": 20,
+        "fields": {
+            "menu": 1,
+            "title": "Для бизнеса",
+            "url": "http://localhost:8000/pricing/enterprise",
+            "named_url": "enterprise",
+            "parent": 18,
+            "order": 2
+        }
+    }
+]
